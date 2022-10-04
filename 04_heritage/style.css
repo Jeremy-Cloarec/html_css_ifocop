@@ -14,3 +14,13 @@ h1{
     background-color: beige;
     border: 1px solid;
 }
+
+span{
+    background-color: rgba(116, 161, 228, 0.705);
+    display: block;
+    text-align: center;
+}
+
+div{
+    background-color: rgb(111, 187, 206);
+}

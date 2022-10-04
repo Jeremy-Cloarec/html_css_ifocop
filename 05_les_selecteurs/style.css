@@ -1,0 +1,51 @@
+body{
+    font-size: 20px;
+}
+
+p {
+    color: green;
+}
+
+
+p:last-child{
+    background-color: aqua;
+}
+
+p:nth-child(even){ /*Selectionne élément pairs*/
+    background-color: yellow;
+}
+
+p:nth-child(odd){/*Selectionne élément impairs*/
+    background-color: pink;
+}
+p:nth-child(5){/*Selectionne élément impairs*/
+    background-color:rgb(52, 37, 107);
+}
+
+p:nth-child(6){/*Selectionne élément impairs*/
+    background-color: rgb(131, 30, 47);
+}
+
+.zoneA{
+    color:rgb(82, 82, 167);
+}
+.zoneB{
+    color:rgb(82, 82, 167);
+}
+
+
+#zoneC{
+    color:rgb(82, 9, 78);
+}
+
+#zoneC{
+    color:rgb(82, 9, 78);
+}
+
+.couleurBleue{
+    color:red;
+}
+
+#zoneD span{
+    color:green;
+}
