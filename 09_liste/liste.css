@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type:none;
+}
+li{
+    list-style-type: none;
+}
+
+
+.fruit{
+    padding: 0;
+    text-align: right;
+    background-color: brown;
+    padding:20px 50px;
+    top:0;
+    position: sticky;
+   
+}
+    
+.fruit li{
+    
+    display: inline;
+    color: white;
+    position: relative;
+    padding:15px;
+    
+}
+
+.espace{
+    top: 0;
+    height: 2000px;
+    width: 100%;
+    background-color: rgb(238, 135, 135);
+}
+

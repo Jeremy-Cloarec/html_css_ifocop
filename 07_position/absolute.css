@@ -1,0 +1,14 @@
+.box{
+    width: 300px;
+    background-color: rgb(30, 63, 112);
+    height: 300px;
+    position:relative;
+}
+
+.element{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(211, 122, 14);
+    position:absolute;
+    left: 90px;
+}

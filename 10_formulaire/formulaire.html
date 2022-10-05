@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="formulaire.css">
+  </head>
+  <body>
+    <form method="post" action="">
+      <label for="pseudo">Pseudo</label>
+      <input
+        type="text"
+        id="pseudo"
+        name="pseudo"
+        placeholder="Taper votre pseudo ici"
+        required
+      /><br />
+
+      <label for="name">Prénom</label>
+      <input
+        type="text"
+        id="prenom"
+        name="prenom"
+        placeholder="Taper votre prénom"
+        required
+      /><br />
+
+      <label for="mdp">Mot de passe</label>
+      <input type="password" id="mdp" name="mdp" /><br />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" /><br />
+
+      <label for="pays">Pays</label>
+      <select name="pays" id="pays">
+        <optgroup label="Europe">
+          <option value="fr">France</option>
+          <option value="es">Espagne</option>
+          <option value="it">Italie</option>
+        </optgroup>
+        <optgroup label="Europe">
+          <option value="fr" >France</option>
+          <option value="es" selected>Espagne</option>
+          <option value="it">Italie</option>
+        </optgroup>
+      </select><br>
+
+      <label for="choix">Quelles sont vos fruits préférés ?</label>
+      <p><input type="checkbox" name="choix" checked>Orange</p>
+      <p><input type="checkbox" name="choix">Poire</p>
+      <p><input type="checkbox" name="choix">Pomme</p><br>
+
+      <label for="civilite">Civilité</label>
+      <p>M.<input type="radio" name="civilite" value="m"></p>
+
+      <label for="civilite">Civilité</label>
+      <p>Mme<input type="radio" name="civilite" value="f"></p>
+      <br>
+
+      <label for="ville">Ville</label>
+      <input type="text" name="ville" id="ville"
+      list="france">
+      <datalist id="france">
+        <option>Paris</option>
+        <option>Marseille</option>
+        <option>Lyon</option>
+      </datalist>
+      <br> <label for="cp">Code postale</label>
+      <input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="chiffre requis entre 0 et 9"><br>
+      <label for="adresse">Adresse</label>
+      <textarea name="adress" id="adress" cols="25" rows="5"></textarea><br>
+
+      <label for="telephone">Téléphone</label>
+      <input type="tel" pattern="^[0-9]{10}$"><br>
+      <label for="recherche">Rechercher</label>
+      <input type="text" pattern="[a-zA-ZO-9.-_]+" title="caractère autorisé : a-zA-ZO-9"> 
+
+      <label for="jauge">Jauge</label>
+      <input type="range" min="25" max="50" value="26" id="jauge"><br> 
+
+      <input type="submit" name="inscription"
+      value="s'inscrire">
+
+      <br>
+
+    
+
+    </form>
+  </body>
+</html>
