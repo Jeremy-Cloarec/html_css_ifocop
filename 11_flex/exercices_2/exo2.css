@@ -1,0 +1,60 @@
+
+
+
+*{
+    margin: 0;
+    padding : 0;
+}
+
+.exo6{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+}
+.container{
+    width: 100%;
+    height:30px;
+    background-color: aqua;
+}
+.container2{
+    width: 100%;
+    height:100%;
+    display: flex;
+}
+.container3{
+    width: 100%;
+    height:60px;
+    background-color: rgb(13, 83, 116);
+}
+
+.carre1{
+    background-color: rgb(20, 73, 36);
+    flex: 1;
+}
+.carre2{
+    /* background-color: rgb(74, 172, 103); */
+    flex: 5;
+    height: 70%;
+    display: flex;
+}
+
+.rectun{
+    flex:1;
+    background-color: greenyellow;
+    margin:0 10px;
+    
+}
+
+
+
+
+
+
+
+.carre3{
+    background-color: rgb(67, 99, 15);
+    flex: 1;
+}
+
+

@@ -1,0 +1,59 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.exo{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    height: 70px;
+    background-color: rgb(119, 44, 9);
+}
+
+.container3{
+    background-color: green;
+    height: 30px;
+  
+
+}
+
+.yellow{
+    
+    background-color: yellow;
+    margin: 15px;
+    flex:1;
+
+}
+
+.ligneun{
+    display: flex;
+    height: 50%;
+}
+
+.carreUn{
+    background-color: aqua;
+    width: 50%;
+    
+}
+.carreDeux{
+    background-color: rgb(5, 24, 66);
+    width: 50%;
+}
+.lignedeux{
+    display: flex;
+    height: 50%;
+}
+
+.carreTrois{
+    background-color: rgb(1, 31, 3);
+    width: 50%;
+}
+.carreQuatre{
+    background-color: rgb(150, 228, 157);
+    width: 50%;
+}
